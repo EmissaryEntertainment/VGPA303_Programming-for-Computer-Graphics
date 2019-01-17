@@ -1,6 +1,9 @@
-#include "Week_1_Homework.h"
+#include "Week_2_Lab.h"
 
 int main(void)
 {
-	Week1Homework();
+	PrePrepare();
+	Prepare();
+	Render();
+	return 0;
 }
