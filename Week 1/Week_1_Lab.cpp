@@ -1,4 +1,3 @@
-//Step 1: Make sure c++ is working
 #define GLEW_STATIC
 
 #include <iostream>
@@ -6,7 +5,15 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-int main(void)
+int Lab();
+
+////Comment this out in order for other scripts in this solution to operate.
+//int main()
+//{
+//	Lab();
+//}
+
+int Lab(void)
 {
 	GLFWwindow* window;
 
