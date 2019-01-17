@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week_1_Lab.cpp">
+    <ClCompile Include="Main_Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Week_1_Lab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Week_1_Homework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
