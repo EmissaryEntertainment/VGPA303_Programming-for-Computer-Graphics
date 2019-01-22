@@ -128,6 +128,7 @@
   <ItemGroup>
     <ClInclude Include="Week_1_Homework.h" />
     <ClInclude Include="Week_1_Lab.h" />
+    <ClInclude Include="Week_2_Homework.h" />
     <ClInclude Include="Week_2_Lab.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

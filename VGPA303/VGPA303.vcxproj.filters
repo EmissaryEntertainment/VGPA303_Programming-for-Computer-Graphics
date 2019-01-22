@@ -29,5 +29,8 @@
     <ClInclude Include="Week_2_Lab.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Week_2_Homework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
