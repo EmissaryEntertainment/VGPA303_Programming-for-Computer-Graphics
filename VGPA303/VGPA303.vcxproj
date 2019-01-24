@@ -76,7 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLFW\include;C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLEW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Include;C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLFW\include;C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLEW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLFW\lib-vc2015;C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLEW\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -99,7 +99,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLFW\include;C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLEW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Include;C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLFW\include;C:\School\11th Quarter\Programming for Computer Graphics\VGPA303_Programming for Computer Graphics\Dependencies\GLEW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -130,6 +130,7 @@
     <ClInclude Include="Week_1_Lab.h" />
     <ClInclude Include="Week_2_Homework.h" />
     <ClInclude Include="Week_2_Lab.h" />
+    <ClInclude Include="Week_3_Lab.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

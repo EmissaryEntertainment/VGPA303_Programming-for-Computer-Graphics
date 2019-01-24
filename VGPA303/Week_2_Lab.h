@@ -2,7 +2,6 @@
 #define GLEW_STATIC
 
 #include <iostream>
-
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
@@ -82,7 +81,6 @@ void Prepare()
 	glAttachShader(program, fs);
 	//Link program
 	glLinkProgram(program);
-
 
 	glGenVertexArrays(1, &vao);
 	glBindVertexArray(vao);
