@@ -126,12 +126,15 @@
     <ClCompile Include="Main_Driver.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="Midterm.h" />
     <ClInclude Include="Week_1_Homework.h" />
     <ClInclude Include="Week_1_Lab.h" />
     <ClInclude Include="Week_2_Homework.h" />
     <ClInclude Include="Week_2_Lab.h" />
     <ClInclude Include="Week_3_Homework.h" />
     <ClInclude Include="Week_3_Lab.h" />
+    <ClInclude Include="Week_4_Lab.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
