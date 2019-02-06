@@ -1,4 +1,4 @@
-#include "Midterm.h"
+#include "Midterm_In_Class.h"
 
 int main(void)
 {

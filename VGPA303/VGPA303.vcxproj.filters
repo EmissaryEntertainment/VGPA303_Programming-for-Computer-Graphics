@@ -44,7 +44,10 @@
     <ClInclude Include="Functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Midterm.h">
+    <ClInclude Include="Midterm_Project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Midterm_In_Class.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

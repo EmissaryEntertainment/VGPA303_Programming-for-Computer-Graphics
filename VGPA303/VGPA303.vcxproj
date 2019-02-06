@@ -127,7 +127,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Functions.h" />
-    <ClInclude Include="Midterm.h" />
+    <ClInclude Include="Midterm_In_Class.h" />
+    <ClInclude Include="Midterm_Project.h" />
     <ClInclude Include="Week_1_Homework.h" />
     <ClInclude Include="Week_1_Lab.h" />
     <ClInclude Include="Week_2_Homework.h" />

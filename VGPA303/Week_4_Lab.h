@@ -130,7 +130,7 @@ void Prepare()
 	// Step 4: Put the data into the buffer object
 	glBufferData(GL_ARRAY_BUFFER, sizeof(colors), colors, GL_STATIC_DRAW);
 	// Step 5: Enable vertex attributes
-	glEnableVertexAttribArray(1); // 2 is the location of the accepting variable in the shader program
+	glEnableVertexAttribArray(1); // 1 is the location of the accepting variable in the shader program
 	// Step 6: Tell OpenGL how to load in the data from VBO
 	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, (GLvoid*)(0));
 }
