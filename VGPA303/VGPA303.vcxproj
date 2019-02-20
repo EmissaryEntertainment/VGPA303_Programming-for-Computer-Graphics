@@ -136,6 +136,9 @@
     <ClInclude Include="Week_3_Homework.h" />
     <ClInclude Include="Week_3_Lab.h" />
     <ClInclude Include="Week_4_Lab.h" />
+    <ClInclude Include="Week_6_Homework.h" />
+    <ClInclude Include="Week_6_Lab_Part1.h" />
+    <ClInclude Include="Week_6_Lab_Part2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,4 @@
-#include "Midterm_In_Class.h"
+#include "Week_6_Homework.h"
 
 int main(void)
 {
