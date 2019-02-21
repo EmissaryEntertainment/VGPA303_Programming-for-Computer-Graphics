@@ -40,7 +40,7 @@ void prepareVao(GLuint& vertexArrayObject)
 	checkOpenGLError("PrepareVao");
 }
 
-void prepareVbo(GLuint& vertexBufferObject, float data[], GLbyte dataSize)
+void prepareVbo(GLuint& vertexBufferObject, float data[], size_t dataSize)
 {
 	glGenBuffers(1, &vertexBufferObject);
 	glBindBuffer(GL_ARRAY_BUFFER, vertexBufferObject);
@@ -48,7 +48,7 @@ void prepareVbo(GLuint& vertexBufferObject, float data[], GLbyte dataSize)
 	checkOpenGLError("PrepareVbo");
 }
 
-void prepareEbo(GLuint& elementBufferObject, GLuint data[], GLbyte dataSize)
+void prepareEbo(GLuint& elementBufferObject, GLuint data[], size_t dataSize)
 {
 	glGenBuffers(1, &elementBufferObject);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, elementBufferObject);

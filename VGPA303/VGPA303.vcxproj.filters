@@ -59,5 +59,14 @@
     <ClInclude Include="Week_6_Homework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Week_7_InClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Week_7_Lab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Week_8_Homework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -107,10 +107,7 @@ void prepare()
 	//program
 	program = PrepareShaderProgram(vs_source, fs_source);
 	//vbo for position
-	//prepareVbo(vboPositions, pos, sizeof(pos));
-	glGenBuffers(1, &vboPositions);
-	glBindBuffer(GL_ARRAY_BUFFER, vboPositions);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(pos), pos, GL_STATIC_DRAW);
+	prepareVbo(vboPositions, pos, sizeof(pos));
 	//activate va array
 	connectBufferToAttrib(0, 4, 4, 0);
 	//Element buffer object
