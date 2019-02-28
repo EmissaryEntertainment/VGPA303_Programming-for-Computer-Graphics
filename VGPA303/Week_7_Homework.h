@@ -13,7 +13,7 @@ glm::vec4 points[] = {
 	 {-0.25, -0.25, 0.0, 1.0}      //bottom left   2
 };
 
-int main()
+int Run()
 {
 	glm::mat4 translateMatrix = glm::mat4(1.0f);
 	glm::mat4 rotationMatrix = glm::rotate(glm::mat4(1.0f), glm::radians(180.0f), glm::vec3(1.0f, 0.0f, 0.0f));

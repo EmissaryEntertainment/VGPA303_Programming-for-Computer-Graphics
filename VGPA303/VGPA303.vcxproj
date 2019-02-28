@@ -141,7 +141,9 @@
     <ClInclude Include="Week_6_Lab_Part2.h" />
     <ClInclude Include="Week_7_InClass.h" />
     <ClInclude Include="Week_7_Lab.h" />
-    <ClInclude Include="Week_8_Homework.h" />
+    <ClInclude Include="Week_7_Homework.h" />
+    <ClInclude Include="Week_8_InClass.h" />
+    <ClInclude Include="Week_8_Lab.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
