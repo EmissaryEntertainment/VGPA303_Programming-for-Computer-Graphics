@@ -74,5 +74,8 @@
     <ClInclude Include="Week_8_Lab.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Week_9_Lab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
